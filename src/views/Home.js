@@ -28,9 +28,9 @@ function Home() {
         }
     }, [scoreA, scoreB]);
   return (
-    <div className="bg-blue-100 min-h-screen p-10">
-        <h1 className="text-center text-3xl md:text-5xl py-4 md:py-10 border-2 border-blue-500 border-dashed
-         rounded-md text-blue-500 bg-white">
+    <div className="bg-amber-100 min-h-screen p-10">
+        <h1 className="text-center text-3xl md:text-5xl py-4 md:py-10 border-2 border-amber-500 border-dashed
+         rounded-md text-amber-500 bg-white">
             Score Keeper</h1>
             
 
@@ -62,7 +62,7 @@ function Home() {
             </p>
             ) : null}
             <div className="flex justify-center mt-4 md:mt-10">
-                <button className="bg-blue-500 px-10 py-3 text-2xl md:text-5xl text-white rounded-lg shadow-lg"
+                <button className="bg-amber-500 px-10 py-3 text-2xl md:text-5xl text-white rounded-lg shadow-lg"
                  onClick={() => {
                     setScoreA(0);
                     setScoreB(0);
